@@ -1,0 +1,47 @@
+<<* PROJECT-TEAM WORKFLOW *>>
+
+
+1. WIREFRAME
+	- shared brainstorming session to decide layout
+	- hand drawn wireframes of each page
+	- meeting to choose which elements we will incorporate
+
+2. HTML/CSS
+	- cycles of creator and editor
+	- one member codes initial structure
+	- other member edits and adjust, resubmits for review
+	- cycle repeated until complete
+
+3. JavaScript Implementation
+	- shared research into which features are appropriate
+	- implementation responsibility TBA
+
+4. Navigation Development
+	- Chris Kitz
+
+5. Image Editing
+	-Matt Cordier
+
+6. Font Choice
+	- shared research and decision making
+	- Matt Cordier includes into stylesheet
+
+7. Responsive Styles
+	-shared in creator/editor process
+
+9. Profile Pages
+	- after initial creation, each individual responsible for adding their own content
+
+10. Sim/Diff
+	- joint brainstorming process to decide layout
+	- Chris Kitz Diffs
+	- Matt Cordier Sims
+
+11. Home Page
+	- Chris Kitz initial layout creator
+	- Matt Cordier editor/content creator 
+
+12. Git Repo Management
+	- Matt Cordier
+
+
