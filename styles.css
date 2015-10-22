@@ -22,7 +22,7 @@ body {font-family: evilfont;
 		 
 .jumbotron {
     position: relative;
-    background: url("assets/cordier_kitz_banner.jpg") center center;
+    background: url("assets/Cordier_Kitz_banner.jpg") center center;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -39,6 +39,9 @@ body {
   background-size: cover;
 }
 
-/*.navbar-header {
-    background-color: rgb(193, 47, 101);
-}*/
+.navbar-default {
+    background-color: rgb(98, 181, 81);
+    border-top: 1px solid rgb(0, 12, 96);
+    border-bottom: 1px solid rgb(0, 12, 96);
+    border-radius: 0px;
+}
