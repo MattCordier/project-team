@@ -7,11 +7,38 @@
 h1, h2 {font-family: comicfont;
 	}
 
+.profile-names {
+
+    font-size: 4em;
+
+    color: rgb(227, 27, 64);
+    text-align: center;
+    text-shadow: 2px 2px rgb(15, 11, 25);
+    background-color: rgba(90, 170, 76, .8);
+    padding-top: 10px;
+    max-width: 80%;
+   /* margin-left: auto;
+    margin-right: auto;*/
+    margin: 20px auto 10px auto;
+    border: 1px solid rgb(15, 11, 25);
+    border-radius: 15px;
+}
+
+.profile-pic {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
 @font-face {font-family: crimefont;
 	src: url(assets/CRIMFBRG.ttf);
 			}
 
 body {font-family: crimefont;
+    color: rga(15, 11, 25);
 	}
 	
 /*.banner {
@@ -46,10 +73,24 @@ body {
     border-right: 2px solid rgba(227, 27, 64, 0.3);
     border-left: 2px solid rgba(227, 27, 64, 0.3);
     border-radius: 0px;
+    
 
 }
 
+.navbar {
+    text-align: center;
+    margin-bottom: 0px;
+}
 
+
+
+ul {
+    display: inline-block;
+    /*max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;*/
+   
+}
 
 li {
     padding-top: 5px;
@@ -58,5 +99,5 @@ li {
 }
 
 a {
-    color: rgb(0, 12, 96);
-}
+    color: rgb(15, 11, 25);
+
