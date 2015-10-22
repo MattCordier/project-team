@@ -1,0 +1,34 @@
+@font-face {
+    font-family: comicfont;
+    src: url(assets/avengersfont.ttf);
+		
+	}
+
+h2 {font-family: comicfont;
+	}
+
+@font-face {font-family: evilfont;
+	src: url(assets/evilgenius);
+			}
+
+body {font-family: evilfont;
+	}
+	
+#banner {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+        height: 200px;
+        z-index: -1;
+         }
+		 
+.jumbotron {
+    position: relative;
+    background: #000 url("assets/cordier_kitz_banner.jpg") center center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    overflow: hidden;
+}
