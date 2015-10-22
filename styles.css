@@ -45,8 +45,10 @@ h1, h2 {font-family: comicfont;
 body {font-family: crimefont;
     color: rga(15, 11, 25);
 	}
+
+
 	
-		 
+
 .jumbotron {
     position: relative;
     background: url("assets/Cordier_Kitz_banner.jpg") center center;
@@ -56,6 +58,16 @@ body {font-family: crimefont;
     overflow: hidden;
     padding-bottom: 30%;
     margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        display: none;
+    }
+    #mobile-brand {
+    height: 100%;
+}
+    
 }
 
 body {
@@ -80,13 +92,14 @@ body {
     margin-left: 50px;
 }
 
-li {
+.nav-link {
 
-    font-size: 1.5vw;
+    font-size: 2vw;
+    color: rgb(15, 11, 25);
 }
 
 
 
-a {
-    color: rgb(15, 11, 25);
+
+
 
