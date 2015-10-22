@@ -27,7 +27,7 @@ body {font-family: evilfont;
     height: auto;
     background-size: cover;
     overflow: hidden;
-    padding-bottom: 20%;
+    padding-bottom: 30%;
     margin-bottom: 0px;
 }
 
@@ -40,8 +40,8 @@ body {
 }
 
 .navbar-default {
-    background-color: rgb(98, 181, 81);
-    border-top: 1px solid rgb(0, 12, 96);
-    border-bottom: 1px solid rgb(0, 12, 96);
+    background:url("assets/bg_nav.jpg");
+    border-top: 2px solid rgba(0, 12, 96, 0.3);
+    border-bottom: 2px solid rgba(0, 12, 96, 0.3);
     border-radius: 0px;
 }
