@@ -119,20 +119,34 @@ h1, h2 {
         display: none;
     }
 
-    /*BRAND POP-IN*/
     #mobile-brand {
     height: 50px;
     margin: -16px;
     margin-left: -16px;
+    }
+
+    .navbar-default {
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .profile-1 {
+        margin-top: 70px;
+    }
 
 }
 
 @media (min-width: 769px) {
-    /*BRAND HIDE*/
+    
     #mobile-brand {
         display: none;
     }
+
+    
+
 }
+
 
 
 
@@ -150,17 +164,6 @@ h1, h2 {
 }
 /*FIXED NAV/RESPONSIVE */
 
-    .navbar-default {
-        width: 100%;
-        position: fixed;
-        z-index: 2;
-    }
-
-    .profile-1 {
-        margin-top: 70px;
-    }
-
-}
 
 /*NAVBAR LINKS */
 
