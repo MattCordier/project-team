@@ -142,9 +142,6 @@ h1, h2 {
     #mobile-brand {
         display: none;
     }
-
-    
-
 }
 
 
@@ -217,6 +214,56 @@ div ul.navbar-nav li a.nav-link:hover {
     background-color: #FFFFFF;
 }
 
+.close-profile {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #FFFFFF;
+    border-radius: 100%;
+}
+
+@media (max-width: 768px){
+    .close-profile {
+        margin-top: 70px;
+        border: 5px solid #FFFFFF;
+    }
+
+    .comparison {
+        margin-top: 70px;
+    }
+
+}
+
+.comparison  {
+    color: #FFFFFF;
+}
+
+
+.diffs-mc, .sim-mc {
+    background-color: rgb(227, 27, 64);
+    border-top:2px solid #FFFFFF;
+    border-right:1px solid #FFFFFF;
+    border-left:2px solid #FFFFFF;
+    border-bottom:2px solid #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.diffs-ck, .sim-ck {
+    background-color: rgb(110, 193, 84);
+    border-top:2px solid #FFFFFF;
+    border-right:2px solid #FFFFFF;
+    border-left:1px solid #FFFFFF;
+    border-bottom:2px solid #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.name-compare {
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+
+}
 
 
 
