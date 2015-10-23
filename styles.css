@@ -1,16 +1,34 @@
+body {
+
+    font-family: crimefont;
+    color: rga(15, 11, 25);
+    background: url("assets/bg_image.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
 @font-face {
     font-family: comicfont;
     src: url(assets/avengersfont.ttf);
-		
 	}
 
-h1, h2 {font-family: comicfont;
-	}
+@font-face {
+    font-family: crimefont;
+    src: url(assets/CRIMFBRG.ttf);
+}
 
+h1, h2 {
+    font-family: comicfont;
+}
+
+/*HEADERS FOR FRONT PAGE PROFILE PICS WITH MEDIA QUERY*/
 .profile-names {
-
     font-size: 4em;
-
     color: rgb(227, 27, 64);
     text-align: center;
     text-shadow: 2px 2px rgb(15, 11, 25);
@@ -29,6 +47,7 @@ h1, h2 {font-family: comicfont;
     }
 }
 
+/*FRONT PAGE IMG STYLE*/
 .profile-pic {
     display: block;
     max-width: 80%;
@@ -38,15 +57,8 @@ h1, h2 {font-family: comicfont;
     border-radius: 5px;
 }
 
-@font-face {font-family: crimefont;
-	src: url(assets/CRIMFBRG.ttf);
-			}
 
-body {font-family: crimefont;
-    color: rga(15, 11, 25);
-	}
-	
-		 
+/*BANNER STYLES FOR ALL PAGES/RESPONSIVE HIDE*/
 .jumbotron {
     position: relative;
     background: url("assets/Cordier_Kitz_banner.jpg") center center;
@@ -57,36 +69,206 @@ body {font-family: crimefont;
     padding-bottom: 30%;
     margin-bottom: 0px;
 }
-
-body {
-    background: url("assets/bg_image.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+.jumbotron-mc {
+    position: relative;
+    background: url("assets/Cordier_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
     background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
 }
 
+.jumbotron-ck {
+    position: relative;
+    background: url("assets/Kitz_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+
+.jumbotron-diff {
+    position: relative;
+    background: url("assets/diff_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+
+.jumbotron-sim {
+    position: relative;
+    background: url("assets/sim_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+
+    .jumbotron {
+        display: none;
+    }
+
+    #mobile-brand {
+    height: 50px;
+    margin: -16px;
+    margin-left: -16px;
+    }
+
+    .navbar-default {
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .profile-1 {
+        margin-top: 70px;
+    }
+
+}
+
+@media (min-width: 769px) {
+    
+    #mobile-brand {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/*NAVIGATION STYLES*/
 .navbar-default {
     background:url("assets/bg_nav.jpg");
     border-top: 2px solid rgba(0, 12, 96, 0.3);
     border-bottom: 2px solid rgba(0, 12, 96, 0.3);
-  
+    border-left: 2px solid rgba(199, 52, 45, 0.3);
+    border-right: 2px solid rgba(199, 52, 45, 0.3);
+    border-radius: 0px;
+   
+}
+/*FIXED NAV/RESPONSIVE */
+
+
+/*NAVBAR LINKS */
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
     text-align: center;
+}
+
+
+.nav-link {
     
-
-}
-
-.nav-pills {
-    margin-left: 50px;
-}
-
-li {
-
-    font-size: 1.5vw;
-}
-
-
-
-a {
+    font-size: 2vw;
     color: rgb(15, 11, 25);
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 1.5em;
+    }
+}
+
+
+div ul.navbar-nav li a.nav-link {
+    color: #FFFFFF;
+}
+div ul.navbar-nav li a.nav-link:hover {
+    color: #e4ebc2;
+}
+
+/*HAMBURGER STYLE*/
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(90, 170, 76, .8);
+}
+
+/*.navbar-default .navbar-toggle:active {
+    background-color: rgba(90, 170, 76, .8);
+}*/
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+.close-profile {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #FFFFFF;
+    border-radius: 100%;
+}
+
+@media (max-width: 768px){
+    .close-profile {
+        margin-top: 70px;
+        border: 5px solid #FFFFFF;
+    }
+
+    .comparison {
+        margin-top: 70px;
+    }
+
+}
+
+.comparison  {
+    color: #FFFFFF;
+}
+
+
+.diffs-mc, .sim-mc {
+    background-color: rgb(227, 27, 64);
+    border-top:2px solid #FFFFFF;
+    border-right:1px solid #FFFFFF;
+    border-left:2px solid #FFFFFF;
+    border-bottom:2px solid #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.diffs-ck, .sim-ck {
+    background-color: rgb(110, 193, 84);
+    border-top:2px solid #FFFFFF;
+    border-right:2px solid #FFFFFF;
+    border-left:1px solid #FFFFFF;
+    border-bottom:2px solid #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.name-compare {
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+
+}
+
+
+
+
+
+
+
 
