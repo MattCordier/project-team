@@ -59,6 +59,49 @@ body {font-family: crimefont;
     padding-bottom: 30%;
     margin-bottom: 0px;
 }
+.jumbotron-mc {
+    position: relative;
+    background: url("assets/Cordier_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+
+.jumbotron-ck {
+    position: relative;
+    background: url("assets/Kitz_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+
+.jumbotron-diff {
+    position: relative;
+    background: url("assets/diff_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
+
+.jumbotron-sim {
+    position: relative;
+    background: url("assets/sim_banner.jpg") center center;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30%;
+    margin-bottom: 0px;
+}
 
 @media (max-width: 768px) {
     .jumbotron {
@@ -71,6 +114,15 @@ body {font-family: crimefont;
 
 }
 
+    .navbar-default {
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .profile-1 {
+        margin-top: 70px;
+    }
 
 }
 
@@ -126,6 +178,27 @@ div ul.navbar-nav li a.nav-link {
 div ul.navbar-nav li a.nav-link:hover {
     color: #e4ebc2;
 }
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #FFFFFF;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: rgba(90, 170, 76, .8);
+}
+
+/*.navbar-default .navbar-toggle:active {
+    background-color: rgba(90, 170, 76, .8);
+}*/
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+}
+
+
+
+
 
 
 
