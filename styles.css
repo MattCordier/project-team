@@ -167,6 +167,7 @@ h1, h2 {
 
 
 
+
 /*NAVIGATION STYLES*/
 .navbar-default {
     background:url("assets/bg_nav.jpg");
@@ -277,11 +278,28 @@ div ul.navbar-nav li a.nav-link:hover {
     border-radius: 0px 10px 10px 0px;
 }
 
+
+
 .name-compare {
     text-align: center;
     border-bottom: 1px solid #FFFFFF;
 
 }
+
+div.fade-right { 
+    margin-left: -400px;
+/*    margin-right: 0px;*/
+    float:left; 
+    position:relative; 
+    display:none; }
+
+
+div.fade-left { 
+    margin-right: -400px;
+    /*margin-left: 0px;*/
+    float:right; 
+    position:relative; 
+    display:none; }
 
 
 
