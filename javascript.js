@@ -9,6 +9,15 @@ $(document).ready(function(){
 });
 
 
+// STORY  
+
+$(document).ready(function(){
+    $(".story-btn").click(function(){
+        $(".mc-story").slideToggle(1000, 'swing');
+    });
+});
+
+
 
 
 // $(function(){  // $(document).ready 
