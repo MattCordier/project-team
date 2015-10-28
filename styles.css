@@ -9,8 +9,10 @@ body {
     background-size: cover;
 }
 
-
-
+/*.fadein
+{
+    display: none;
+} */
 
 @font-face {
     font-family: comicfont;
