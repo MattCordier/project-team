@@ -9,8 +9,10 @@ body {
     background-size: cover;
 }
 
-
-
+/*.div1
+{
+    display: none;
+} */
 
 @font-face {
     font-family: comicfont;
