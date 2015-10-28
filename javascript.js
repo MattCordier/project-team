@@ -20,11 +20,17 @@ $(document).ready(function(){
 
 
 
+
 // $(function(){  // $(document).ready 
 //   $('#fadein').fadeIn(3000);
 // });
 
 
 
+$(window).load(function() {
+  $('.monster').fadeIn(7000, function() {
+    // Animation complete
+  });
+});
 
 
