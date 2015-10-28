@@ -2,13 +2,6 @@
 
 
 
-$(document).ready(function() {
-
-$("html, body").pagefade(1000, 1000);
-
-});
-
-
 
 
 $(function(){  // $(document).ready 
