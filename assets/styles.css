@@ -2,7 +2,7 @@ body {
 
     font-family: crimefont;
     color: rga(15, 11, 25);
-    background: url("assets/bg_image.jpg") no-repeat center center fixed; 
+    background: url("img/bg_image.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,12 +16,12 @@ body {
 
 @font-face {
     font-family: comicfont;
-    src: url(assets/avengersfont.ttf);
+    src: url(avengersfont.ttf);
 	}
 
 @font-face {
     font-family: crimefont;
-    src: url(assets/CRIMFBRG.ttf);
+    src: url(CRIMFBRG.ttf);
 }
 
 h1, h2 {
@@ -63,7 +63,7 @@ h1, h2 {
 /*BANNER STYLES FOR ALL PAGES/RESPONSIVE HIDE*/
 .jumbotron {
     position: relative;
-    background: url("assets/Cordier_Kitz_banner.jpg") center center;
+    background: url("img/Cordier_Kitz_banner.jpg") center center;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -73,7 +73,7 @@ h1, h2 {
 }
 .jumbotron-mc {
     position: relative;
-    background: url("assets/Cordier_banner.jpg") center center;
+    background: url("img/Cordier_banner.jpg") center center;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -84,7 +84,7 @@ h1, h2 {
 
 .jumbotron-ck {
     position: relative;
-    background: url("assets/Kitz_banner.jpg") center center;
+    background: url("img/Kitz_banner.jpg") center center;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -95,7 +95,7 @@ h1, h2 {
 
 .jumbotron-diff {
     position: relative;
-    background: url("assets/diff_banner.jpg") center center;
+    background: url("img/diff_banner.jpg") center center;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -106,7 +106,7 @@ h1, h2 {
 
 .jumbotron-sim {
     position: relative;
-    background: url("assets/sim_banner.jpg") center center;
+    background: url("img/sim_banner.jpg") center center;
     max-width: 100%;
     height: auto;
     background-size: cover;
@@ -170,7 +170,7 @@ h1, h2 {
 
 /*NAVIGATION STYLES*/
 .navbar-default {
-    background:url("assets/bg_nav.jpg");
+    background:url("img/bg_nav.jpg");
     border-top: 2px solid rgba(0, 12, 96, 0.3);
     border-bottom: 2px solid rgba(0, 12, 96, 0.3);
     border-left: 2px solid rgba(199, 52, 45, 0.3);
