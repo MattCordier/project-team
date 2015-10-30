@@ -14,6 +14,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".story-btn").click(function(){
         $(".mc-story").slideToggle(1000, 'swing');
+        $(".story-btn").hide();
     });
 });
 
