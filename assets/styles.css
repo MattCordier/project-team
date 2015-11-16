@@ -292,6 +292,10 @@ div ul.navbar-nav li a.nav-link:hover {
 
 }
 
+h3 {
+    hyphens: auto;
+}
+
 
 
 /*STYLE FOR SIM/DIFF JS*/
